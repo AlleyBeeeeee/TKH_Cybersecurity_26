@@ -1,6 +1,6 @@
 # Cybersecurity Foundations Lab: Final Project
 
-**Author:** [Your Name]
+**Author:** Alexandra Blandon
 **Date:** February 2026
 
 ## Professional Introduction
@@ -14,6 +14,10 @@ My current focus is directed toward the **Cloud Security** and **Network Defense
 ## Research & Standards
 
 All methodologies in this lab adhere to industry-standard frameworks to ensure repeatable and defensible security posture.
+
+## Reflection
+
+Governance is just as important as technical skill because it provides the "why" and "how" behind the technical "what." While a technician can configure a firewall, governance determines which traffic should be blocked based on risk assessment and legal compliance. In cybersecurity, technical skills without governance lead to "security theater"—tools that exist but don't actually mitigate the organization's specific risks. Today’s material aligns most closely with the GRC (Governance, Risk, and Compliance) domain. This domain bridges the gap between high-level business goals and ground-level technical implementation. Mastering these concepts ensures that security measures are not just powerful, but also purposeful and legally defensible.
 
 ### References
 
