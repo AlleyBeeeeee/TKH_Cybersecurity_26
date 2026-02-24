@@ -1,3 +1,24 @@
+# Cybersecurity Foundations Lab: Final Project
+
+**Author:** [Your Name]
+**Date:** February 2026
+
+## Professional Introduction
+
+I am a cybersecurity professional in training, focused on mastering the technical and strategic frameworks required to defend modern digital ecosystems. This repository serves as a centralized hub for my technical documentation, lab configurations, and security research.
+
+## Cybersecurity Focus
+
+My current focus is directed toward the **Cloud Security** and **Network Defense** domains. I am specifically interested in how the **CIA Triad** (Confidentiality, Integrity, and Availability) is maintained within decentralized environments. My objective is to implement "Security by Design" using automated workflows and robust identity management.
+
+## Research & Standards
+
+All methodologies in this lab adhere to industry-standard frameworks to ensure repeatable and defensible security posture.
+
+### References
+
+- National Institute of Standards and Technology. (2018). _Framework for Improving Critical Infrastructure Cybersecurity_ (Version 1.1). U.S. Department of Commerce. https://doi.org/10.6028/NIST.CSWP.04162018
+
 🛡️ Core Security Philosophy
 My approach to cybersecurity is grounded in the CIA Triad, ensuring that every system I manage maintains the highest standards of data integrity and availability.
 
