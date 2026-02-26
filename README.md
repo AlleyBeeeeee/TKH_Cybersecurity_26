@@ -1,49 +1,32 @@
-# Cybersecurity Foundations Lab: Final Project
-
-**Author:** Alexandra Blandon
-**Date:** February 2026
-
-## Professional Introduction
-
-I am a cybersecurity professional in training, focused on mastering the technical and strategic frameworks required to defend modern digital ecosystems. This repository serves as a centralized hub for my technical documentation, lab configurations, and security research.
-
-## Cybersecurity Focus
-
-My current focus is directed toward the **Cloud Security** and **Network Defense** domains. I am specifically interested in how the **CIA Triad** (Confidentiality, Integrity, and Availability) is maintained within decentralized environments. My objective is to implement "Security by Design" using automated workflows and robust identity management.
-
-## Research & Standards
-
-All methodologies in this lab adhere to industry-standard frameworks to ensure repeatable and defensible security posture.
-
-## Reflection
-
-Governance is just as important as technical skill because it provides the "why" and "how" behind the technical "what." While a technician can configure a firewall, governance determines which traffic should be blocked based on risk assessment and legal compliance. In cybersecurity, technical skills without governance lead to "security theater"—tools that exist but don't actually mitigate the organization's specific risks. Today’s material aligns most closely with the GRC (Governance, Risk, and Compliance) domain. This domain bridges the gap between high-level business goals and ground-level technical implementation. Mastering these concepts ensures that security measures are not just powerful, but also purposeful and legally defensible.
-
-### References
-
-- National Institute of Standards and Technology. (2018). _Framework for Improving Critical Infrastructure Cybersecurity_ (Version 1.1). U.S. Department of Commerce. https://doi.org/10.6028/NIST.CSWP.04162018
-
+Foundations_Lab_Final: Cybersecurity Infrastructure & Governance
+Student: Alexandra Blandon
+Milestone: Night 3 Technical Readiness Audit
 🛡️ Core Security Philosophy
-My approach to cybersecurity is grounded in the CIA Triad, ensuring that every system I manage maintains the highest standards of data integrity and availability.
+I believe that cybersecurity is not just a technical barrier, but a foundational layer of trust. My approach focuses on Security by Design, where governance (the "Why") and technical implementation (the "What") are aligned to protect decentralized digital ecosystems.
+🏗️ Technical Framework Mapping (CIA & AAA)
+This lab environment is governed by the following frameworks to ensure a defensible security posture.
+Principle
+Implementation in this Lab
+Confidentiality
+Use of Private GitHub Repositories and Least Privilege access in Ubuntu VMs.
+Integrity
+Git Version Control provides a cryptographic audit trail for all documentation and code.
+Availability
+Cloud-based backups (GitHub) and local VM exports ensure data is accessible after hardware failure.
+Authentication
+Secure login to the Ubuntu VM and MFA on the GitHub account.
+Authorization
+Restricted sudo permissions within the Linux environment to prevent unauthorized system changes.
+Accounting
+Git Commit logs and lab_verify.sh logs act as the primary audit record of work performed.
 
-1. Confidentiality (The Secret)
-   Goal: Ensure that sensitive information is accessed only by authorized parties.
-
-Implementation: I utilize Advanced Encryption Standards (AES) and strict Identity and Access Management (IAM). In the Cloud domain, this means configuring private S3 buckets and using Multi-Factor Authentication (MFA).
-
-2. Integrity (The Truth)
-   Goal: Guarantee that data has not been altered or tampered with by unauthorized users.
-
-Implementation: I employ Hashing (SHA-256) to verify file snapshots and use Digital Signatures for code commits. Within the GRC domain, this is supported by regular audits to ensure compliance with data accuracy standards.
-
-3. Availability (The Access)
-   Goal: Ensure that systems and data are available to users when needed.
-
-Implementation: I focus on Redundancy and DDoS mitigation within Network Security. This includes maintaining offsite backups and utilizing Load Balancers in Cloud environments to prevent single points of failure.
-
-Professional Research Standards (APA Style)
-To meet your Night 4 requirements, you need to cite your sources. Here are two baseline citations you can include in your "References" section:
-
-NIST Framework: National Institute of Standards and Technology. (2018). Framework for Improving Critical Infrastructure Cybersecurity.
-
-The Triad: Anderson, J. (2003). Why Information Security is Hard - An Economic Perspective.
+📝 Governance & Reflection
+Governance provides the rules of engagement for technical tools. While a technician can configure a firewall, governance determines which traffic should be blocked based on risk assessment. In this lab, today’s material aligns with the GRC (Governance, Risk, and Compliance) domain, bridging the gap between business goals and technical implementation.
+📚 Professional Research Standards (APA 7th)
+Center for Internet Security. (2021). CIS Controls v8: A Priority Set of Logical Safeguards. https://www.cisecurity.org/controls/v8
+National Institute of Standards and Technology. (2018). Framework for Improving Critical Infrastructure Cybersecurity (Version 1.1). U.S. Department of Commerce. https://doi.org/10.6028/NIST.CSWP.04162018
+Anderson, J. (2003). Why Information Security is Hard - An Economic Perspective.
+🚀 Night 3 Deployment Status
+Hypervisor: VirtualBox (running on Samsung T7 SSD)
+Guest OS: Ubuntu 24.04 LTS
+Automation: lab_verify.sh successfully executed.
