@@ -8,5 +8,5 @@ HostMax:   10.50.50.254         00001010.00110010.00110010. 11111110
 Broadcast: 10.50.50.255         00001010.00110010.00110010. 11111111
 Hosts/Net: 254                   Class A, Private Internet
 
-Network ID: 10.50.50.128
-Broadcast ID: 10.50.50.159
+Network ID for /27: 10.50.50.128
+Broadcast ID for /27: 10.50.50.159
