@@ -1,7 +1,7 @@
 import socket
 
 #List of Servers
-targets = ["127.0.0.1", "8.8.8.8", "1.1.1.1", "10.0.0.1"]
+targets = ["127.0.0.1", "8.8.8.8", "1.1.1.1", "10.0.0.1", "192.168.1.1"]
 
 for ip in targets:
 	print(f"---Checking Server: {ip} ---")
