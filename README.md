@@ -50,20 +50,20 @@ Anderson, J. (2003). _Why Information Security is Hard - An Economic Perspective
 - **Automation:** `lab_verify.sh` successfully executed.
 
 TKH_Cybersecurity_26/
-├── Linux_Intro/           # Week 01 - Bash & System Hardening
-│   ├── discovery.txt      
-│   ├── threat_ips.txt     
-│   └── harden.sh          
-├── Network_Ops/           # Week 02 - Networking & Auditing
-│   ├── network_audit.txt  
-│   ├── subnet_blueprint.txt 
-│   └── protocol_audit.txt 
-├── Python_Intro/          # Week 03 - Automation Scripts
-│   ├── port_check.py      
-│   └── brute_detector.py  
-├── ICMP_Practice/         # Post-Week 03 Reconnaissance
-│   └── ping_sweeper.py    
-├── network_topology.pkt   # Cisco Packet Tracer Lab
+├── Linux_Intro/              # Week 01 - Bash & System Hardening
+│   ├── discovery.txt         # Recon output
+│   ├── threat_ips.txt        # Attacker IOCs
+│   └── harden.sh             # Automation script
+├── Network_Ops/              # Week 02 - Networking & Auditing
+│   ├── network_audit.txt     
+│   ├── subnet_blueprint.txt  
+│   └── protocol_audit.txt    
+├── Python_Intro/             # Week 03 - Automation Scripts
+│   ├── port_check.py         
+│   └── brute_detector.py     
+├── ICMP_Practice/            # Post-Week 03 Reconnaissance
+│   └── ping_sweeper.py       
+├── network_topology.pkt      # Cisco Packet Tracer Lab
 └── README.md
 
 | Week | Theme | Status |
