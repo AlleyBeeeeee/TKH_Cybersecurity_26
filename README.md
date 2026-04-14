@@ -48,3 +48,69 @@ Anderson, J. (2003). _Why Information Security is Hard - An Economic Perspective
 - **Hypervisor:** VirtualBox (running on Samsung T7 SSD)
 - **Guest OS:** Ubuntu 24.04 LTS
 - **Automation:** `lab_verify.sh` successfully executed.
+
+TKH_Cybersecurity_26/
+├── Linux_Intro/              # Week 01 - Bash & System Hardening
+│   ├── discovery.txt         # Recon output
+│   ├── threat_ips.txt        # Attacker IOCs
+│   └── harden.sh             # Automation script
+├── Network_Ops/              # Week 02 - Networking & Auditing
+│   ├── network_audit.txt     
+│   ├── subnet_blueprint.txt  
+│   └── protocol_audit.txt    
+├── Python_Intro/             # Week 03 - Automation Scripts
+│   ├── port_check.py         
+│   └── brute_detector.py     
+├── ICMP_Practice/            # Post-Week 03 Reconnaissance
+│   └── ping_sweeper.py       
+├── network_topology.pkt      # Cisco Packet Tracer Lab
+└── README.md
+
+| Week | Theme | Status |
+| :--- | :--- | :--- |
+| **01** | Terminal · Permissions · Stream Editing · Git | ✅ |
+| **02** | Networking · Subnetting · Protocol Interrogation | ✅ |
+| **03** | Python Scripting · Port Scanner · Brute Force Detector | ✅ |
+| **04** | Virtualization · Docker · Container Security | ⏳ |
+
+---
+
+## 🛠️ Weekly Laboratory Deep Dives
+
+### 🛡️ [Week 01] — Linux Foundations
+> **Technical Implementation:** `Linux_Intro/harden.sh`
+> 
+> **Focus:** Principle of Least Privilege. I learned to audit SUID/GUID bits and manage file permissions (`chmod`, `chown`) to secure sensitive system files like `/etc/shadow`.
+* **Action:** Created `harden.sh` to automate the securing of a fresh Ubuntu VM.
+* **Key Skill:** Pipeline chaining using `grep`, `awk`, and `sed` to filter 10,000+ log lines into a clean `threat_ips.txt`.
+
+---
+
+### 📡 [Week 02] — Network Defense
+> **Technical Implementation:** `Network_Ops/network_topology.pkt`
+> 
+> **Focus:** Transitioned from local system security to network-wide governance. I learned the mechanics of the OSI Model and how to design defensible network architectures.
+* **Action:** Designed a segmented network in Cisco Packet Tracer and performed protocol interrogation using `ss -tuln` and `dig`.
+* **Key Skill:** Calculating CIDR notation and subnet masks to ensure proper network isolation (Subnetting).
+
+---
+
+### 🐍 [Week 03] — Python for Security
+> **Technical Implementation:** `Python_Intro/port_check.py` & `brute_detector.py`
+> 
+> **Focus:** Moved from manual terminal commands to **Security Automation**. I learned how to use Python's `socket` and `file I/O` libraries to build custom defensive tools.
+* **Action:** Developed a custom port scanner to identify open vectors and a forensic script to parse `auth.log` files for brute-force patterns.
+* **Key Skill:** Using `try/except` blocks for error handling and automating raw log conversion into structured reports.
+
+---
+
+### 🏗️ Technical Environment & Governance
+| Component | Specification |
+| :--- | :--- |
+| **Guest OS** | Ubuntu 24.04 LTS |
+| **Hardware** | Samsung T7 SSD (High-speed VM performance) |
+| **Frameworks** | NIST CSF, CIA Triad, AAA (Auth, Auth, Accounting) |
+
+---
+
+**Built intentionally · Current Status: Updated weekly · TKH IF 2026**

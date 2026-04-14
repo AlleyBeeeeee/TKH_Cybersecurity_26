@@ -7,17 +7,19 @@
 2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
     link/ether 08:00:27:43:f6:11 brd ff:ff:ff:ff:ff:ff
     inet 192.168.1.155/24 metric 100 brd 192.168.1.255 scope global dynamic enp0s3
-       valid_lft 75295sec preferred_lft 75295sec
+       valid_lft 76545sec preferred_lft 76545sec
+    inet 10.0.0.5/24 scope global enp0s3
+       valid_lft forever preferred_lft forever
     inet6 2600:4040:9c38:4a00:a00:27ff:fe43:f611/64 scope global dynamic mngtmpaddr noprefixroute 
-       valid_lft 7039sec preferred_lft 7039sec
+       valid_lft 7147sec preferred_lft 7147sec
     inet6 fe80::a00:27ff:fe43:f611/64 scope link 
        valid_lft forever preferred_lft forever
 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-64 bytes from 8.8.8.8: icmp_seq=1 ttl=119 time=17.4 ms
-64 bytes from 8.8.8.8: icmp_seq=2 ttl=119 time=10.7 ms
-64 bytes from 8.8.8.8: icmp_seq=3 ttl=119 time=17.0 ms
-64 bytes from 8.8.8.8: icmp_seq=4 ttl=119 time=14.3 ms
+From 10.0.0.5 icmp_seq=1 Destination Host Unreachable
+From 10.0.0.5 icmp_seq=2 Destination Host Unreachable
+From 10.0.0.5 icmp_seq=3 Destination Host Unreachable
+From 10.0.0.5 icmp_seq=4 Destination Host Unreachable
 
 --- 8.8.8.8 ping statistics ---
-4 packets transmitted, 4 received, 0% packet loss, time 3163ms
-rtt min/avg/max/mdev = 10.650/14.830/17.365/2.686 ms
+4 packets transmitted, 0 received, +4 errors, 100% packet loss, time 3108ms
+pipe 4
