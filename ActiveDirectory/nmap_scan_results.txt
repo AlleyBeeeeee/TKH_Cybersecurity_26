@@ -1,0 +1,29 @@
+==================================================
+SESSION 20: NETWORK ENUMERATION MAP
+Target Subnet: 172.99.0.0/24
+==================================================
+
+HOST 1 (172.99.0.5)
+* Open Ports: 80/tcp
+* Service/Version: http | nginx 1.29.8
+
+HOST 2 (172.99.0.6)
+* Open Ports: 6379/tcp
+* Service/Version: redis | Redis key-value 8.6.2
+
+HOST 3 (172.99.0.7)
+* Open Ports: 80/tcp
+* Service/Version: http | Apache httpd 2.4.66 ((Unix))
+
+QUESTIONS:
+1. What Nmap flag did you use to find the specific software versions running on these ports?
+Answer: -sV - Service Version Detection to determine the specific software and version numbers running on the open
+ports. It works by nmap sending signals to the open ports and analyzes the responses against its database of known 
+service signatures. 
+
+2. Why is it dangerous to run an intense scan (like -A) on a fragile legacy system?
+Answer: It consumes network bandwidth and CPU resources by simultaneously performing OS fingerprinting, 
+service version detection and script scanning. Fragile or older systems may have limited processing power or outdated 
+TCP/IP stacks that can become overwhelmed by the volume of complex packets, possibly leading to crashes, system hangs or complete DOS for that host. 
+
+
