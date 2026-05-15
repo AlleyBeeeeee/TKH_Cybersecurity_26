@@ -1,0 +1,4 @@
+Timestamp,Source IP,Event Type,Action,Description
+[Time 1],[IP 1],[Type 1],Initial Access,[Description 1]
+[Time 2],[IP 2],[Type 2],Lateral Movement,[Description 2]
+[Time 3],[IP 3],[Type 3],Exfiltration,[Description 3]
