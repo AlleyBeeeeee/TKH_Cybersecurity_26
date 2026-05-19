@@ -1,0 +1,11 @@
+# INCIDENT RESPONSE REPORT: PHANTOM PURSUIT
+**Operator:** ## PHASE 1: SIEM CORRELATION
+* **Initial Alert Source IP:** 198.51.100.44
+
+## PHASE 2: LIVE TRIAGE & CHAIN OF CUSTODY
+* **Suspicious Process ID (PID):** nc (PID 1)
+* **Evidence SHA256 Hash:** 6dc4f50bc32460889463d3644fdb7540a685e5f774a676e0db81187635752671
+
+## PHASE 3: DISK FORENSICS
+* **Deleted File Inode Number:** 582
+* **Extracted Payload Data:** MALICIOUS_PAYLOAD_C2_IP: 198.51.100.44
