@@ -1,0 +1,211 @@
+[1 - Suricata-Main] 2026-05-19 23:07:09 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-19 23:07:09 Info: cpu: CPUs/cores online: 4
+[1 - Suricata-Main] 2026-05-19 23:07:09 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-19 23:07:09 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-19 23:07:09 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-19 23:07:09 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-19 23:07:09 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-19 23:07:09 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-19 23:07:09 Error: detect-parse: Duplicate signature "alert icmp any any -> 172.90.0.10 any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)"
+[1 - Suricata-Main] 2026-05-19 23:07:09 Error: detect: error parsing signature "alert icmp any any -> 172.90.0.10 any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)" from file /etc/suricata/custom.rules at line 8
+[1 - Suricata-Main] 2026-05-19 23:07:09 Info: detect: 1 rule files processed. 1 rules successfully loaded, 1 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-19 23:07:09 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-19 23:07:09 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-19 23:07:09 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-19 23:07:09 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:07:09 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:07:09 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:07:09 Info: runmodes: eth0: creating 4 threads
+[18 - W#01-eth0] 2026-05-19 23:07:11 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-05-19 23:07:11 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-05-19 23:19:46 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-19 23:19:46 Info: cpu: CPUs/cores online: 4
+[1 - Suricata-Main] 2026-05-19 23:19:46 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-19 23:19:46 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-19 23:19:47 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-19 23:19:47 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-19 23:19:47 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-19 23:19:47 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-19 23:19:47 Error: detect-parse: Duplicate signature "alert icmp any any -> 172.90.0.10 any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)"
+[1 - Suricata-Main] 2026-05-19 23:19:47 Error: detect: error parsing signature "alert icmp any any -> 172.90.0.10 any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)" from file /etc/suricata/custom.rules at line 8
+[1 - Suricata-Main] 2026-05-19 23:19:47 Info: detect: 1 rule files processed. 1 rules successfully loaded, 1 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-19 23:19:47 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-19 23:19:47 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-19 23:19:47 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-19 23:19:47 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:19:47 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:19:47 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:19:47 Info: runmodes: eth0: creating 4 threads
+[17 - W#01-eth0] 2026-05-19 23:19:47 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-05-19 23:19:47 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-05-19 23:21:01 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-19 23:21:01 Info: cpu: CPUs/cores online: 4
+[1 - Suricata-Main] 2026-05-19 23:21:01 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-19 23:21:01 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-19 23:21:02 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-19 23:21:02 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-19 23:21:02 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-19 23:21:02 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-19 23:21:02 Error: detect-parse: Duplicate signature "alert icmp any any -> 172.90.0.10 any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)"
+[1 - Suricata-Main] 2026-05-19 23:21:02 Error: detect: error parsing signature "alert icmp any any -> 172.90.0.10 any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)" from file /etc/suricata/custom.rules at line 8
+[1 - Suricata-Main] 2026-05-19 23:21:02 Info: detect: 1 rule files processed. 1 rules successfully loaded, 1 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-19 23:21:02 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-19 23:21:02 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-19 23:21:02 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-19 23:21:02 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:21:02 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:21:02 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:21:02 Info: runmodes: eth0: creating 4 threads
+[18 - W#01-eth0] 2026-05-19 23:21:02 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-05-19 23:21:02 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-05-19 23:23:51 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-05-19 23:23:52 Info: suricata: time elapsed 170.124s
+[1 - Suricata-Main] 2026-05-19 23:23:54 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2026-05-19 23:23:55 Notice: device: eth0: packets: 11, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2026-05-19 23:23:55 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:23:55 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:23:55 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:23:56 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-19 23:23:56 Info: cpu: CPUs/cores online: 4
+[1 - Suricata-Main] 2026-05-19 23:23:56 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-19 23:23:56 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-19 23:23:56 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-19 23:23:56 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-19 23:23:56 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-19 23:23:56 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-19 23:23:56 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-19 23:23:56 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-19 23:23:56 Info: detect: 2 signatures processed. 1 are IP-only rules, 1 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-19 23:23:56 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-19 23:23:56 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:23:56 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:23:56 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:23:56 Info: runmodes: eth0: creating 4 threads
+[17 - W#01-eth0] 2026-05-19 23:23:56 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-05-19 23:23:56 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-05-19 23:25:15 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-19 23:25:15 Info: cpu: CPUs/cores online: 4
+[1 - Suricata-Main] 2026-05-19 23:25:15 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-19 23:25:15 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-19 23:25:16 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-19 23:25:16 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-19 23:25:16 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-19 23:25:16 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-19 23:25:16 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-19 23:25:16 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-19 23:25:16 Info: detect: 2 signatures processed. 1 are IP-only rules, 1 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-19 23:25:16 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-19 23:25:16 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:25:16 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:25:16 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:25:16 Info: runmodes: eth0: creating 4 threads
+[17 - W#01-eth0] 2026-05-19 23:25:16 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-05-19 23:25:16 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-05-19 23:27:14 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-19 23:27:14 Info: cpu: CPUs/cores online: 4
+[1 - Suricata-Main] 2026-05-19 23:27:14 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-19 23:27:14 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-19 23:27:15 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-19 23:27:15 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-19 23:27:15 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-19 23:27:15 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-19 23:27:15 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-19 23:27:15 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-19 23:27:15 Info: detect: 2 signatures processed. 1 are IP-only rules, 1 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-19 23:27:15 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-19 23:27:15 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:27:15 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:27:15 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:27:15 Info: runmodes: eth0: creating 4 threads
+[17 - W#01-eth0] 2026-05-19 23:27:15 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-05-19 23:27:15 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-05-19 23:28:45 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-19 23:28:45 Info: cpu: CPUs/cores online: 4
+[1 - Suricata-Main] 2026-05-19 23:28:45 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-19 23:28:45 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-19 23:28:46 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-19 23:28:46 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-19 23:28:46 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-19 23:28:46 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-19 23:28:46 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-19 23:28:46 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-19 23:28:46 Info: detect: 2 signatures processed. 1 are IP-only rules, 1 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-19 23:28:46 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-19 23:28:46 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:28:46 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:28:46 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:28:46 Info: runmodes: eth0: creating 4 threads
+[17 - W#01-eth0] 2026-05-19 23:28:46 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-05-19 23:28:46 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-05-19 23:34:18 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-19 23:34:18 Info: cpu: CPUs/cores online: 4
+[1 - Suricata-Main] 2026-05-19 23:34:18 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-19 23:34:18 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-19 23:34:18 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-19 23:34:18 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-19 23:34:18 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-19 23:34:18 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-19 23:34:18 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-19 23:34:18 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-19 23:34:18 Info: detect: 2 signatures processed. 1 are IP-only rules, 1 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-19 23:34:18 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-19 23:34:18 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:34:18 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:34:18 Warning: ioctl: eth0: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:34:18 Info: runmodes: eth0: creating 4 threads
+[17 - W#01-eth0] 2026-05-19 23:34:18 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-05-19 23:34:19 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-05-19 23:41:59 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-19 23:41:59 Info: cpu: CPUs/cores online: 4
+[1 - Suricata-Main] 2026-05-19 23:41:59 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-19 23:41:59 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-19 23:41:59 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-19 23:41:59 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-19 23:41:59 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-19 23:41:59 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-19 23:41:59 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-19 23:41:59 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-19 23:41:59 Info: detect: 2 signatures processed. 1 are IP-only rules, 1 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-19 23:41:59 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-19 23:41:59 Error: af-packet: any: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-19 23:41:59 Info: runmodes: any: creating 4 threads
+[17 - W#01-any] 2026-05-19 23:41:59 Error: af-packet: any: failed to find interface: No such device
+[17 - W#01-any] 2026-05-19 23:41:59 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-19 23:41:59 Error: threads: thread "W#01-any" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-19 23:43:11 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-19 23:43:11 Info: cpu: CPUs/cores online: 4
+[1 - Suricata-Main] 2026-05-19 23:43:11 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-19 23:43:11 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-19 23:43:11 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-19 23:43:11 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-19 23:43:11 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-19 23:43:11 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-19 23:43:11 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-19 23:43:11 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-19 23:43:11 Info: detect: 2 signatures processed. 1 are IP-only rules, 1 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-19 23:43:11 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-19 23:43:11 Error: af-packet: any: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-19 23:43:11 Info: runmodes: any: creating 4 threads
+[17 - W#01-any] 2026-05-19 23:43:11 Error: af-packet: any: failed to find interface: No such device
+[17 - W#01-any] 2026-05-19 23:43:11 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-19 23:43:11 Error: threads: thread "W#01-any" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-19 23:44:24 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-19 23:44:24 Info: cpu: CPUs/cores online: 4
+[1 - Suricata-Main] 2026-05-19 23:44:24 Info: device: br-787d282c120e: shortening device name to br-7..120e
+[1 - Suricata-Main] 2026-05-19 23:44:24 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-19 23:44:24 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-19 23:44:24 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-19 23:44:24 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-19 23:44:24 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-19 23:44:24 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-19 23:44:24 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-19 23:44:24 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-19 23:44:24 Info: detect: 2 signatures processed. 1 are IP-only rules, 1 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-19 23:44:24 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-19 23:44:24 Warning: ioctl: br-787d282c120e: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:44:24 Warning: ioctl: br-787d282c120e: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:44:24 Warning: ioctl: br-787d282c120e: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:44:24 Warning: ioctl: br-787d282c120e: failed to set SIOCETHTOOL ioctl: Operation not permitted
+[1 - Suricata-Main] 2026-05-19 23:44:24 Info: runmodes: br-787d282c120e: creating 4 threads
+[18 - W#01-br-7..120e] 2026-05-19 23:44:24 Info: ioctl: br-787d282c120e: MTU 1500
+[1 - Suricata-Main] 2026-05-19 23:44:25 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.
