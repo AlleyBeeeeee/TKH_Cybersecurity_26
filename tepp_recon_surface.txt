@@ -1,0 +1,29 @@
+# Nmap 7.98 scan initiated Wed May 27 00:07:55 2026 as: nmap -sC -sV -p- -oN tepp_recon_surface.txt 172.100.0.11 172.100.0.12 172.100.0.13 172.60.0.10
+Nmap scan report for syn-172-100-000-011.res.spectrum.com (172.100.0.11)
+Host is up (0.00026s latency).
+Not shown: 65534 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+6379/tcp open  redis   Redis key-value store 8.6.3
+
+Nmap scan report for syn-172-100-000-012.res.spectrum.com (172.100.0.12)
+Host is up (0.00024s latency).
+Not shown: 65534 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.2
+Service Info: OS: Unix
+
+Nmap scan report for syn-172-100-000-013.res.spectrum.com (172.100.0.13)
+Host is up (0.00016s latency).
+All 65535 scanned ports on syn-172-100-000-013.res.spectrum.com (172.100.0.13) are in ignored states.
+Not shown: 65535 closed tcp ports (conn-refused)
+
+Nmap scan report for 172.60.0.10
+Host is up (0.00018s latency).
+Not shown: 65534 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    BaseHTTPServer 0.6 (Python 3.10.12)
+|_http-server-header: BaseHTTP/0.6 Python/3.10.12
+|_http-title: Site doesn't have a title.
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 27 00:08:14 2026 -- 4 IP addresses (4 hosts up) scanned in 18.65 seconds
